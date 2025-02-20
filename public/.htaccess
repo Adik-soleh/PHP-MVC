@@ -1,6 +1,12 @@
-Options -Multiviews
+Options -Indexes
+<IfModule mod_rewrite.c>
 
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
+Options +FollowSymLinks
+RewriteEngine On
+
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(.*)$ index.php?url=$1 [L]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([\s\S]*)$ index.php?$1 [L]
+
+
+</IfModule>
