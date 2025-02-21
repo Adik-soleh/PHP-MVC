@@ -3,10 +3,9 @@
 class About extends Controller
 {
 
-    public function index(string $name = "Parjo", string $job = "Onacang")
+    public function index()
     {
-        $data['name'] = $name;
-        $data['job'] = $job;
+        $data['name'] = $this->model('User_model')->getUser(); 
         $data['title'] = 'About Me';
         $this->view('templates/header', $data);
         $this->view('about/index', $data);

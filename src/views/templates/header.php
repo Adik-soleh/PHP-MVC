@@ -13,7 +13,7 @@
 
   <nav class="navbar navbar-expand-lg bg-dark p-3 shadow-sm">
     <div class="container-fluid">
-      <a class="navbar-brand text-light fw-bold" href="#">PHP MVC</a>
+      <a class="navbar-brand text-light fw-bold" href="<?= BASE_URL; ?>">PHP MVC</a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,10 +21,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-light active fw-semibold px-3" href="#">Home</a>
+            <a class="nav-link text-light active fw-semibold px-3" href="<?= BASE_URL; ?>">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-light fw-semibold px-3" href="#">About</a>
+            <a class="nav-link text-light fw-semibold px-3" href="<?= BASE_URL; ?>/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light fw-semibold px-3" href="<?= BASE_URL; ?>/siswa">Data Siswa</a>
           </li>
         </ul>
       </div>
@@ -43,5 +46,18 @@
     .nav-link:hover {
       background: rgba(255, 255, 255, 0.2);
       border-radius: 5px;
+    }
+
+    body {
+      background: linear-gradient(135deg, #1c1f2b, #3a3f58);
+      color: white;
+      font-family: 'Arial', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .container {
+      flex: 1;
     }
   </style>
