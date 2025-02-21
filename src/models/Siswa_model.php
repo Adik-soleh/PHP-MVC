@@ -33,18 +33,7 @@ class Siswa_model
             "email" => 'siti@gmail.com',
             "jurusan" => "Teknik Informatika"
         ],
-        [
-            "nama" => "Budi",
-            "nis" => "213012345",
-            "email" => 'budi@gmail.com',
-            "jurusan" => "Multimedia"
-        ],
-        [
-            "nama" => "Rina",
-            "nis" => "213056789",
-            "email" => 'rina@gmail.com',
-            "jurusan" => "Sistem Informasi"
-        ],
+
         [
             "nama" => "Agus",
             "nis" => "213034567",
@@ -57,12 +46,7 @@ class Siswa_model
             "email" => 'fajar@gmail.com',
             "jurusan" => "Teknik Informatika"
         ],
-        [
-            "nama" => "Lina",
-            "nis" => "213067890",
-            "email" => 'lina@gmail.com',
-            "jurusan" => "Multimedia"
-        ],
+
         [
             "nama" => "Andi",
             "nis" => "213023456",
@@ -76,7 +60,7 @@ class Siswa_model
             "jurusan" => "Teknik Informatika"
         ],
     ];
-    
+
 
 
     public function getAllSiswa()

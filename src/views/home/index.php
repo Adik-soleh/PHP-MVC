@@ -4,7 +4,7 @@
     <div class="card-body">
       <h1 class="card-title fw-bold">📚 Selamat Datang di Website Sekolah Kami! 🏫</h1>
       <p class="card-text mt-3" style="font-size: 18px;">
-        Selamat datang di <b><?= $data['name']; ?></b>, tempat di mana pendidikan dan karakter dibangun untuk masa depan yang lebih baik!
+      Hi <b> <?= $data['name']; ?> </b>  Selamat datang di <b>Budi Jawa Luhur</b>, tempat di mana pendidikan dan karakter dibangun untuk masa depan yang lebih baik!
       </p>
       <p class="card-text mt-3" style="font-size: 18px;">
         Kami berkomitmen untuk memberikan pengalaman belajar terbaik bagi siswa dengan tenaga pendidik profesional dan fasilitas modern. Mari jelajahi berbagai informasi tentang sekolah kami! 🌟
