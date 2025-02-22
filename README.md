@@ -29,25 +29,26 @@ Berikut adalah versi README yang lebih rapi dan sesuai dengan ikon yang tepat:
 ## 📸 **Screenshots**  
 
 ### 🏠 Home  
-![🏠 Home](public/images/home.png)  
+<img src="public/images/home.png" alt="🏠 Home" width="600">  
 
 ### 📝 Add Student Form  
-![📝 Add Student Form](public/images/create.png)  
+<img src="public/images/create.png" alt="📝 Add Student Form" width="600">  
 
 ### 📋 Student List  
-![📋 Student List](public/images/data.png)  
+<img src="public/images/data.png" alt="📋 Student List" width="600">  
 
 ### 🔍 Student Detail  
-![🔍 Student Detail](public/images/detail.png)  
+<img src="public/images/detail.png" alt="🔍 Student Detail" width="600">  
 
 ### ℹ️ About  
-![ℹ️ About](public/images/about.png)  
+<img src="public/images/about.png" alt="ℹ️ About" width="600">  
 
 ### 🔎 Search  
-![🔎 Search](public/images/search.png)  
+<img src="public/images/search.png" alt="🔎 Search" width="600">  
 
 ### 🗑️ Delete Student  
-![🗑️ Delete Student](public/images/delete.png)  
+<img src="public/images/delete.png" alt="🗑️ Delete Student" width="600">  
+
 
 ---
 
