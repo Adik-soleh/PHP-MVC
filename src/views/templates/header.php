@@ -78,7 +78,7 @@
 
   <nav class="navbar navbar-expand-lg p-3 shadow-sm">
     <div class="container-fluid">
-      <a class="navbar-brand text-light fw-bold" href="<?= BASEURL; ?>">PHP MVC</a>
+      <a class="navbar-brand text-light fw-bold" href="<?= BASEURL; ?>">Student Sphere </a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
