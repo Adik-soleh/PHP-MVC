@@ -2,15 +2,16 @@
   <div class="card shadow-lg border-0 text-center p-5"
     style="width: 90%; max-width: 700px; background: linear-gradient(135deg, #2c3e50, #4ca1af); color: white; border-radius: 20px;">
     <div class="card-body">
-      <h1 class="card-title fw-bold">📚 Selamat Datang di Website Sekolah Kami! 🏫</h1>
+      <h1 class="card-title fw-bold">👋 Selamat Datang, Admin! 🎓</h1>
       <p class="card-text mt-3" style="font-size: 18px;">
-      Hi <b> <?= $data['name']; ?> </b>  Selamat datang di <b>Budi Jawa Luhur</b>, tempat di mana pendidikan dan karakter dibangun untuk masa depan yang lebih baik!
+        Hi <b> <?= $data['name']; ?> </b>, selamat datang di <b>Budi Jawa Luhur</b>!  
+        Terima kasih telah bergabung dalam sistem manajemen sekolah kami! 💼
       </p>
       <p class="card-text mt-3" style="font-size: 18px;">
-        Kami berkomitmen untuk memberikan pengalaman belajar terbaik bagi siswa dengan tenaga pendidik profesional dan fasilitas modern. Mari jelajahi berbagai informasi tentang sekolah kami! 🌟
+        Silakan kelola data siswa, jadwal pelajaran, serta informasi sekolah dengan mudah dan cepat! 🚀
       </p>
-      <a href="<?= BASE_URL; ?>/about" class="btn btn-light mt-4 fw-bold px-4 py-2"
-        style="border-radius: 30px; font-size: 18px;">Pelajari Lebih Lanjut 🏆</a>
+      <a href="<?= BASE_URL; ?>/siswa" class="btn btn-light mt-4 fw-bold px-4 py-2"
+        style="border-radius: 30px; font-size: 18px;">Masuk ke Dashboard 📊</a>
     </div>
   </div>
 </div>

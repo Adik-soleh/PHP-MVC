@@ -21,7 +21,7 @@
                             <tbody>
                                 <?php foreach ($data['siswa'] as $siswa): ?>
                                     <tr>
-                                        <td><?= $siswa['nama'] ?></td>
+                                        <td><?= $siswa['name'] ?></td>
                                         <td><?= $siswa['nis'] ?></td>
                                         <td><?= $siswa['email'] ?></td>
                                         <td><?= $siswa['jurusan'] ?></td>
