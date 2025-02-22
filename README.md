@@ -46,12 +46,7 @@
 <img src="public/images/delete.png" alt="🗑️ Delete Student" width="600">  
 
 
----
 
-README ini sekarang lebih rapi, dengan ikon yang sesuai untuk tiap bagian! 🚀😊
- 
-
----
 
 ## 🚀 **Installation Guide**  
 ### 1️⃣ **Clone the Repository**  
