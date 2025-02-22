@@ -20,11 +20,7 @@
 🔹 **Database:** MySQL  
 🔹 **AJAX & jQuery:** For real-time data processing  
 
----
 
-Berikut adalah versi README yang lebih rapi dan sesuai dengan ikon yang tepat:  
-
----
 
 ## 📸 **Screenshots**  
 
