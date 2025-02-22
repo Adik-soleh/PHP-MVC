@@ -10,7 +10,7 @@
       <p class="card-text mt-3" style="font-size: 18px;">
         Silakan kelola data siswa, jadwal pelajaran, serta informasi sekolah dengan mudah dan cepat! 🚀
       </p>
-      <a href="<?= BASE_URL; ?>/siswa" class="btn btn-light mt-4 fw-bold px-4 py-2"
+      <a href="<?= BASEURL; ?>/siswa" class="btn btn-light mt-4 fw-bold px-4 py-2"
         style="border-radius: 30px; font-size: 18px;">Masuk ke Dashboard 📊</a>
     </div>
   </div>
